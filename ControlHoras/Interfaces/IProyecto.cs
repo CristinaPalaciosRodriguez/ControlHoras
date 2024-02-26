@@ -14,5 +14,7 @@ namespace ControlHoras
         string FechaInicio { get; set; }
         string NombreTrabajador { get; set; }
         int Acumulado { get; set; }
+        void asignar(string nombreTrabajador);
+        void sumar(int horasDedicadas);
     }
 }
