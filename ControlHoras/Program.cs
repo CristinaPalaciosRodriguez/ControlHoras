@@ -22,22 +22,22 @@ namespace ControlHoras
 
             Console.WriteLine($"El trabajador se llama {trabajador.Nombre} {trabajador.Apellido}, su correo es {trabajador.Email}, su ingreso fue {trabajador.FechaIngreso}");
 
-            Console.WriteLine($"El proyecto se llama {proyecto1.Nombre} y se le asigno a {proyecto1.nombreTrabajador}");
+            Console.WriteLine($"El proyecto se llama {proyecto1.Nombre} y se le asigno a {proyecto1.NombreTrabajador}");
 
             proyecto1.sumar(5);
 
-            Console.WriteLine($"Duracion total en horas {proyecto1.Horas} - Horas dedicadas {proyecto1.acumulado}");
+            Console.WriteLine($"Duracion total en horas {proyecto1.Horas} - Horas dedicadas {proyecto1.Acumulado}");
 
 
             Console.WriteLine($"El trabajador se llama {trabajador2.Nombre} {trabajador2.Apellido}, su correo es {trabajador2.Email}, su ingreso fue {trabajador2.FechaIngreso}");
 
-            Console.WriteLine($"El proyecto se llama {proyecto2.Nombre} y se le asigno a {proyecto2.nombreTrabajador}");
+            Console.WriteLine($"El proyecto se llama {proyecto2.Nombre} y se le asigno a {proyecto2.NombreTrabajador}");
 
             proyecto2.sumar(100);
 
             proyecto2.sumar(2);
 
-            Console.WriteLine($"Duracion total en horas {proyecto2.Horas} - Horas dedicadas {proyecto2.acumulado}");
+            Console.WriteLine($"Duracion total en horas {proyecto2.Horas} - Horas dedicadas {proyecto2.Acumulado}");
 
             Console.ReadLine();
         }

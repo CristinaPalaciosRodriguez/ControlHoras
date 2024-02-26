@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace ControlHoras
 {
-    public class Desarrollador : ITrabajador
+    public class Desarrollador : Trabajador, ITrabajador
     {
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
-        public string Email { get; set; }
-        public string FechaIngreso { get; set; }
         public string Categoria { get; set; }
         public Desarrollador(string nombre, string apellido, string email, string fechaIn, string categoria)
         {
